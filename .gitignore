@@ -1,0 +1,15 @@
+# Terraform directories and files
+.terraform/
+*.terraform.lock.*
+
+# State files & variables
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+tfplan
+
+# Modules files
+modules/resource_group_storage/.terraform/
+modules/resource_group_storage/*.terraform.lock.*
+modules/resource_group_storage/*.tfstate
+modules/resource_group_storage/tfplan
